@@ -1,0 +1,17 @@
+section{
+    height: 100vh;
+    background-color: #24353F;
+}
+
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+::placeholder{
+  color: lightgray !important;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--bootstrap CSS-->
+<link rel="stylesheet" href="./CSS/bootstrap.min.css">
+<!--bootstrap CSS-->
+
+<!-- CSS -->
+<link rel="stylesheet" href="./CSS/style.css">
+<!-- CSS -->
+    <title>sign up</title>
+</head>
+<body>
+    
+<section class="signup">
+<div class="container p-5 mx-auto text-center">
+    <div class="signinfo w-75 mx-auto my-5 shadow p-5">
+        <h2 class="py-4 text-info fw-medium">Sign Up</h2>
+
+        <div class="text-area">
+            <div class=" py-3">
+                <input oninput="checkValidation(this);" type="text" class="form-control bg-transparent text-white" id="name" placeholder="Enter Your Name">
+
+            </div>
+
+            <div class=" py-3">
+                <input oninput="checkValidation(this);" type="email" class="form-control bg-transparent text-white" id="mail" placeholder="Enter Your Email">
+            </div>
+
+            <div class=" py-3">
+                <input oninput="checkValidation(this);" type="password"  class="form-control bg-transparent text-white" id="pass" placeholder="Enter Your Password">
+            </div>
+
+            <p id="exist"></p>
+        </div>
+
+        <a href="./home.html" class="btn btn-outline-info w-100 mb-3 text-decoration-none" id="login" onclick="signUp()">Sign Up</a>
+
+    </div>
+</div>
+
+
+
+</section>
+
+
+ <!-- JS -->
+ <script src="./JS/index.js"></script>
+ <!-- JS -->
+
+<!-- bootstrap JS -->
+<script src="./JS/bootstrap.bundle.min.js"></script>
+<!-- bootstrap JS -->
+</body>
+</html>

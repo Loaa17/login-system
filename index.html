@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--bootstrap CSS-->
+<link rel="stylesheet" href="./CSS/bootstrap.min.css">
+<!--bootstrap CSS-->
+
+<!-- CSS -->
+<link rel="stylesheet" href="./CSS/style.css">
+<!-- CSS -->
+
+
+
+    <title>login</title>
+</head>
+<body>
+
+<section class="registeration">
+    <div class="container p-5 mx-auto text-center">
+   
+          <div class="w-75 mx-auto my-5 shadow p-5">
+            <h1 class="py-4 text-info fw-medium">Smart Login System</h1>
+
+           
+ <div class="textArea" id="txt" oninput="checkValidation(this , 'msg')">
+    <div class=" py-3">
+        <input oninput="checkValidation(this);" id="mail" type="email" class="form-control text-white bg-transparent" name="email" placeholder="Enter your Email">
+    </div>
+
+    <div class="py-3"> 
+        <input oninput="checkValidation(this);" id="pass" type="password" class="form-control text-white bg-transparent" name="password" placeholder="Enter your Password">
+    </div>
+  </div>
+            
+
+            <div class="text-danger d-none" id="wrongMsg">
+                <p>. wrong email or password !</p>
+            </div>
+    
+
+              <a href="./home.html" class="btn btn-outline-info w-100 mb-3 text-decoration-none" id="login" onclick="enterEmail()">Login</a>
+
+              
+              <div>
+                <p class="text-white">Don't have an account? <a href="./signup.html" class="text-white">Sign Up</a></p>
+              </div>
+          </div>
+ </div>
+</section>
+
+    
+    
+
+    <!-- JS -->
+    <script src="./JS/index.js"></script>
+    <!-- JS -->
+
+   <!-- bootstrap JS -->
+   <script src="./JS/bootstrap.bundle.min.js"></script>
+   <!-- bootstrap JS -->
+</body>
+</html>
+
+
+
+
